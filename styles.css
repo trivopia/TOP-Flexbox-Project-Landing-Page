@@ -40,3 +40,48 @@ body{
 .hero button{
   width: 150px;
 }
+
+.features > p {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.features .holder {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+
+.holder div {
+  width: 180px;
+  text-align: center;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e6ea;
+  color: #1f2937;
+  text-wrap: wrap;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.jumbotron .sometext {
+  flex: 1;
+  width: 700px;
+  font-family: italic;
+  font-size: 36px;
+  margin: 0;
+}
+
+.jumbotron .author {
+  text-align: end;
+  margin: 0;
+}
