@@ -1,4 +1,4 @@
-body{
+body, p{
   margin: 0;
   padding: 0;
   font-family: Roboto;
@@ -45,12 +45,15 @@ body{
   text-align: center;
   font-size: 36px;
   font-weight: 900;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .features .holder {
   display: flex;
   justify-content: center;
   gap: 60px;
+  padding-bottom: 50px;
   
 }
 
@@ -84,4 +87,50 @@ body{
 .jumbotron .author {
   text-align: end;
   margin: 0;
+}
+
+.callLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.callLayout .contentBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  background-color: #3882f6;  
+  color: #e4e6ea;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 10px;
+}
+
+.callLayout .contentBox .content .title {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.callLayout .contentBox .content .info {
+  font-size: 18px;
+}
+
+.callLayout .contentBox button {
+  background: none;
+  height: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-style: solid;
+  border-color: #f9faf8;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+
 }
