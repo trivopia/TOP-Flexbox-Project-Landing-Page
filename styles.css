@@ -21,3 +21,22 @@ body{
   display: flex;
   gap: 22px;
 }
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding-top: 100px;
+}
+
+.hero .info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.hero button{
+  width: 150px;
+}
